@@ -28,7 +28,6 @@
         app:elevation="0dp">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
-            android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:contentScrim="?attr/colorPrimary"
@@ -42,10 +41,9 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:layout_scrollFlags="scroll|enterAlways"
                 android:layout_gravity="bottom|end"
-                android:elevation="1dp"
-                android:minHeight="100dp">
+                android:elevation="0dp"
+                app:layout_collapseMode="pin">
 
                 <TextView
                     android:layout_width="wrap_content"
