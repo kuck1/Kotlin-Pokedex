@@ -35,7 +35,7 @@
             app:collapsedTitleTextAppearance="@style/AppTheme.Title.Collapsed"
             app:expandedTitleTextAppearance="@style/AppTheme.Title.Expanded"
             app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed">
-            
+
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
